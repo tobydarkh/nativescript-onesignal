@@ -1,6 +1,6 @@
 buildscript {
     repositories {
-        maven { url 'https://plugins.gradle.org/m2/' } // Gradle Plugin Portal 
+        maven { url 'https://plugins.gradle.org/m2/' } // Gradle Plugin Portal
     }
     dependencies {
         // https://github.com/OneSignal/OneSignal-Gradle-Plugin
@@ -27,5 +27,5 @@ android {
 }
 
 dependencies {
-	compile 'com.onesignal:OneSignal:3.9.1'
+	compile 'com.onesignal:OneSignal:4.7.1'
 }
